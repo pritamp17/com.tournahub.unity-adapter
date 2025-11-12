@@ -1,0 +1,9 @@
+{
+  "name": "TournaHub.Editor",
+  "rootNamespace": "TournaHub.SDK.Editor",
+  "references": ["TournaHub.Runtime"],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": false
+}

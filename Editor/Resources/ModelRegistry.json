@@ -1,0 +1,24 @@
+{
+  "sdk_version": "1.0.0",
+  "models": {
+    "mobile_onnx": {
+      "primary": {
+        "name": "Phi-3-Mini (3.8B)",
+        "url": "http://d2z1m12qmlvowk.cloudfront.net/models/2_Phi-3-Mini-Mobile-v1.zip",
+        "version": "1.0"
+      },
+      "lite": {
+        "name": "Gemma (1B)",
+        "url": "http://d2z1m12qmlvowk.cloudfront.net/models/1_Gemma-3-1B-Mobile-v1.zip",
+        "version": "1.0"
+      }
+    },
+    "pc_console_onnx": {
+      "primary": {
+        "name": "Phi-3.5 (8B) ONNX",
+        "url": "http://d2z1m12qmlvowk.cloudfront.net/models/4_phi-3.5-8B-PC-v1.zip",
+        "version": "1.0"
+      }
+    }
+  }
+}
