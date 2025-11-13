@@ -1,0 +1,41 @@
+{
+  "sdk_version": "1.0.0",
+  "models": {
+    "mobile_onnx": {
+      "primary": {
+        "name": "Phi-3-Mini (3.8B)",
+        "url": "https://d2z1m12qmlvowk.cloudfront.net/models/2_Phi-3-Mini-Mobile-v1.zip",
+        "version": "1.0"
+      },
+      "lite": {
+        "name": "Gemma (1B)",
+        "url": "https://d2z1m12qmlvowk.cloudfront.net/models/1_Gemma-3-1B-Mobile-v1.zip",
+        "version": "1.0"
+      }
+    },
+    "pc_console_onnx": {
+      "primary": {
+        "name": "Phi-3.5 (8B) ONNX",
+        "url": "https://d2z1m12qmlvowk.cloudfront.net/models/4_phi-3.5-8B-PC-v1.zip",
+        "version": "1.0"
+      }
+    },
+    "pc_standalone_gguf": {
+      "high": {
+        "name": "Llama 3 8B (Q5_K_M)",
+        "url": "https://d2z1m12qmlvowk.cloudfront.net/models/Meta-Llama-3-8B-Instruct.Q5_K_M.gguf",
+        "filesize_gb": 5.73
+      },
+      "medium": {
+        "name": "Llama 3 8B (Q4_0)",
+        "url": "https://d2z1m12qmlvowk.cloudfront.net/models/Meta-Llama-3-8B-Instruct.Q4_0.gguf",
+        "filesize_gb": 4.92
+      },
+      "low": {
+        "name": "Llama 3 8B (Q3_K_L)",
+        "url": "https://d2z1m12qmlvowk.cloudfront.net/models/Meta-Llama-3-8B-Instruct.Q5_K_M.gguf",
+        "filesize_gb": 4.32
+      }
+    }
+  }
+}
